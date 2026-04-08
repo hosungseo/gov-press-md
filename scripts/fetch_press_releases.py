@@ -8,28 +8,12 @@ import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
+from normalize_html import clean_html, extract_links
+
 DEFAULT_SERVICE_KEY = "aIjg7oEO5AacryP2v03u06r4%2B9magi7FWC4EdjePS7YyuJpNCi1e8V3sZtAiUMH%2FuBwLHspSb%2FlnHtmGS0GYjg%3D%3D"
 API_URL = "https://apis.data.go.kr/1371000/pressReleaseService/pressReleaseList"
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
-
-
-def clean_html(raw: str) -> str:
-    if not raw:
-        return ""
-    text = raw
-    text = re.sub(r"(?i)<br\s*/?>", "\n", text)
-    text = re.sub(r"(?i)</p\s*>", "\n\n", text)
-    text = re.sub(r"(?i)</div\s*>", "\n\n", text)
-    text = re.sub(r"(?i)</li\s*>", "\n", text)
-    text = re.sub(r"(?i)<li[^>]*>", "- ", text)
-    text = re.sub(r"<[^>]+>", "", text)
-    text = html.unescape(text)
-    text = text.replace("\xa0", " ")
-    text = re.sub(r"\r\n?", "\n", text)
-    text = re.sub(r"\n{3,}", "\n\n", text)
-    text = re.sub(r"[ \t]+\n", "\n", text)
-    return text.strip()
 
 
 def slugify(value: str) -> str:
@@ -80,7 +64,9 @@ def write_day(day: date, root: ET.Element) -> int:
         subtitle1 = (item.findtext('SubTitle1') or '').strip()
         subtitle2 = (item.findtext('SubTitle2') or '').strip()
         subtitle3 = (item.findtext('SubTitle3') or '').strip()
-        body = clean_html(item.findtext('DataContents') or '')
+        raw_html = item.findtext('DataContents') or ''
+        body = clean_html(raw_html)
+        links = extract_links(raw_html)
         fname = f"{idx:03d}_{slugify(minister)}_{slugify(title)}.md"
         lines = [
             '---',
@@ -90,6 +76,7 @@ def write_day(day: date, root: ET.Element) -> int:
             f'news_item_id: "{news_id}"',
             f'grouping_code: "{grouping}"',
             f'original_url: "{original}"',
+            f'attachment_count: {len(links)}',
             'source: "policy-briefing-api"',
             '---',
             '',
@@ -108,7 +95,13 @@ def write_day(day: date, root: ET.Element) -> int:
         for sub in [subtitle1, subtitle2, subtitle3]:
             if sub:
                 lines += [f'> {sub}', '']
-        lines += ['## 본문', '', body if body else '(본문 없음)', '', '## 출처', '', '- 정책브리핑 보도자료 API']
+        lines += ['## 본문', '', body if body else '(본문 없음)', '']
+        if links:
+            lines += ['## 첨부/링크', '']
+            for label, href in links:
+                lines.append(f'- [{label}]({href})')
+            lines.append('')
+        lines += ['## 출처', '', '- 정책브리핑 보도자료 API']
         (out_dir / fname).write_text('\n'.join(lines), encoding='utf-8')
         index_lines.append(f'- [{title}]({fname}) — {minister}')
         count += 1
