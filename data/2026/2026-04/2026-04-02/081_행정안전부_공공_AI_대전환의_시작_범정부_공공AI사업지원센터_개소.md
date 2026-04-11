@@ -5,6 +5,7 @@ approve_date: "04/02/2026 15:00:00"
 news_item_id: "156752607"
 grouping_code: "brief"
 original_url: "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156752607&call_from=openData"
+attachment_count: 0
 source: "policy-briefing-api"
 ---
 

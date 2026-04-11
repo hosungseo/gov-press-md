@@ -1,0 +1,29 @@
+---
+title: "'국토 · 교통 글로벌 리더십 강화' … OECD·ITF 통해 정책 협력 확대"
+ministry: "국토교통부"
+approve_date: "05/18/2025 11:00:00"
+news_item_id: "156689497"
+grouping_code: "brief"
+original_url: "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156689497&call_from=openData"
+attachment_count: 0
+source: "policy-briefing-api"
+---
+
+# "국토 · 교통 글로벌 리더십 강화" … OECD·ITF 통해 정책 협력 확대
+
+- 부처: 국토교통부
+- 배포일: 05/18/2025 11:00:00
+- NewsItemId: 156689497
+- 원문: https://www.korea.kr/briefing/pressReleaseView.do?newsId=156689497&call_from=openData
+
+> 경제협력개발기구(OECD) · 국제교통포럼(ITF)에서 글로벌 국토 · 교통 현안 논의
+
+> 스마트시티·교통 인프라 진출 지원, 재건 협력 강화 등 연계 활동 병행
+
+## 본문
+
+"국토 · 교통 글로벌 리더십 강화" … OECD·ITF 통해 정책 협력 확대 관련 보도자료 내용입니다. 자세한 내용은 첨부파일을 참고하시기 바랍니다.
+
+## 출처
+
+- 정책브리핑 보도자료 API

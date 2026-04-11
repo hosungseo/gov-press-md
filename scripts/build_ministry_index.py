@@ -2,6 +2,7 @@
 from collections import defaultdict
 from pathlib import Path
 import re
+import html
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / 'data'
@@ -20,9 +21,9 @@ for md in sorted(DATA_DIR.rglob('*.md')):
     approve_date = ''
     for line in text.splitlines()[:20]:
         if line.startswith('title: '):
-            title = line.split(': ', 1)[1].strip().strip('"')
+            title = html.unescape(line.split(': ', 1)[1].strip().strip('"'))
         elif line.startswith('ministry: '):
-            ministry = line.split(': ', 1)[1].strip().strip('"')
+            ministry = html.unescape(line.split(': ', 1)[1].strip().strip('"'))
         elif line.startswith('approve_date: '):
             approve_date = line.split(': ', 1)[1].strip().strip('"')
     ministry = ministry or '미분류'

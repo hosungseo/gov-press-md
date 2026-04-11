@@ -1,0 +1,29 @@
+---
+title: "[보도참고] 「저신용등급 포함 회사채·CP 매입기구(SPV) 설립 방안」 발표"
+ministry: "금융위원회"
+approve_date: "05/20/2020 10:20:24"
+news_item_id: "156391089"
+grouping_code: "brief"
+original_url: "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156391089&call_from=openData"
+attachment_count: 0
+source: "policy-briefing-api"
+---
+
+# [보도참고] 「저신용등급 포함 회사채·CP 매입기구(SPV) 설립 방안」 발표
+
+- 부처: 금융위원회
+- 배포일: 05/20/2020 10:20:24
+- NewsItemId: 156391089
+- 원문: https://www.korea.kr/briefing/pressReleaseView.do?newsId=156391089&call_from=openData
+
+## 본문
+
+□ 5.20.(수) 07:30~08:40 경제부총리주재 제4차 비상경제 중앙대책본부 회의에서 관계기관 합동으로 마련한 「저신용등급 포함 회사채·CP 매입기구(SPV) 설립 방안」을 의결하였습니다.
+
+※ 자세한 내용은 첨부자료를 참고하여 주시기 바랍니다.
+
+ < 첨부 > 「저신용등급 포함 회사채·CP 매입기구(SPV) 설립 방안「」
+
+## 출처
+
+- 정책브리핑 보도자료 API

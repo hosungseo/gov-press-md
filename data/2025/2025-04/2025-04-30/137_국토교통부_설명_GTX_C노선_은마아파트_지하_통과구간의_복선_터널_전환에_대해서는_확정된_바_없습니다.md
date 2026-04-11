@@ -1,0 +1,25 @@
+---
+title: "[설명] GTX-C노선 은마아파트 지하 통과구간의 복선 터널 전환에 대해서는 확정된 바 없습니다."
+ministry: "국토교통부"
+approve_date: "04/30/2025 21:14:00"
+news_item_id: "156687164"
+grouping_code: "brief"
+original_url: "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156687164&call_from=openData"
+attachment_count: 0
+source: "policy-briefing-api"
+---
+
+# [설명] GTX-C노선 은마아파트 지하 통과구간의 복선 터널 전환에 대해서는 확정된 바 없습니다.
+
+- 부처: 국토교통부
+- 배포일: 04/30/2025 21:14:00
+- NewsItemId: 156687164
+- 원문: https://www.korea.kr/briefing/pressReleaseView.do?newsId=156687164&call_from=openData
+
+## 본문
+
+[설명] GTX-C노선 은마아파트 지하 통과구간의 복선 터널 전환에 대해서는 확정된 바 없습니다. 관련 보도자료 내용입니다. 자세한 내용은 첨부파일을 참고하시기 바랍니다.
+
+## 출처
+
+- 정책브리핑 보도자료 API

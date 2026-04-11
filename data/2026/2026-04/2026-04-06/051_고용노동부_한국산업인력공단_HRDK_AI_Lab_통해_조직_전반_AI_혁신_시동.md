@@ -5,6 +5,7 @@ approve_date: "04/06/2026 10:11:28"
 news_item_id: "156753038"
 grouping_code: "brief"
 original_url: "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156753038&call_from=openData"
+attachment_count: 0
 source: "policy-briefing-api"
 ---
 
@@ -21,7 +22,7 @@ source: "policy-briefing-api"
 
  한국산업인력공단은 6일 공단 본부(울산광역시 중구)에 'HRDK AI Lab*'을 개소하고, 임직원의 AI 활용 역량 제고와 업무혁신을 본격 추진한다.
 
-  * HRDK AI Lab : HRDK Artificial Intelligence Laboratory의 약자로, 한국산업인력공단 AI 업무혁신 공간을 의미함
+ * HRDK AI Lab : HRDK Artificial Intelligence Laboratory의 약자로, 한국산업인력공단 AI 업무혁신 공간을 의미함
 
  'HRDK AI Lab'은 단순 체험 공간을 넘어, 직원들이 다양한 생성형 AI 기술을 직접 활용하며 업무에 적용할 수 있도록 설계된 실습형 공간이다. 공단은 이를 통해 조직 전반에 AI 기반 업무 방식 전환을 확산시킬 예정이다.
 
@@ -35,7 +36,7 @@ source: "policy-briefing-api"
 
  김규석 이사장 직무대행은 "HRDK AI Lab 운영을 통해 임직원의 AI 활용 역량을 단계적으로 고도화할 것이다."라며, "공단은 공공기관 디지털 혁신을 선도해 대국민 서비스 품질을 높이겠다."라고 말했다.
 
-문  의:  AI데이터기획부  김영민(052-714-8111)
+문 의: AI데이터기획부 김영민(052-714-8111)
 
 ## 출처
 
