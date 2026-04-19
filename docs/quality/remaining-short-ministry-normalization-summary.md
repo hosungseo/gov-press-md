@@ -1,0 +1,68 @@
+# gov-press-md remaining short ministry normalization summary
+
+- 규칙: 남은 2글자 이하 부처명은 제목/본문에서 기관명 재추론, 실패 시 `미분류`
+- 변경 파일 수: 581
+- manifest: `docs/quality/remaining-short-ministry-normalization-manifest.csv`
+
+## 변경 상위 유형
+
+- 범부 → 산업통상자원부 (inferred): 26건
+- 철원 → 환경부 (inferred): 13건
+- 탈원 → 산업통상자원부 (inferred): 13건
+- 벤처 → 산업통상자원부 (inferred): 11건
+- 남부 → 환경부 (inferred): 10건
+- 시부 → 환경부 (inferred): 10건
+- 초청 → 환경부 (inferred): 10건
+- 본부 → 산업통상자원부 (inferred): 9건
+- 외부 → 환경부 (inferred): 8건
+- 응원 → 여성가족부 (inferred): 8건
+- 대청 → 환경부 (inferred): 8건
+- 범부 → 환경부 (inferred): 8건
+- 일원 → 환경부 (inferred): 7건
+- 기부 → 환경부 (inferred): 6건
+- 충청 → 환경부 (inferred): 6건
+- 초청 → 산업통상자원부 (inferred): 6건
+- 초청 → 방송통신위원회 (inferred): 6건
+- 풍부 → 산업통상자원부 (inferred): 6건
+- 전원 → 산업통상자원부 (inferred): 6건
+- 중부 → 산업통상자원부 (inferred): 6건
+- 공원 → 환경부 (inferred): 5건
+- 부실 → 환경부 (inferred): 5건
+- 충청 → 산업통상자원부 (inferred): 5건
+- 전부 → 환경부 (inferred): 5건
+- 응원 → 산업통상자원부 (inferred): 5건
+- 중부 → 환경부 (inferred): 5건
+- 만원 → 산업통상자원부 (inferred): 5건
+- 학부 → 산업통상자원부 (inferred): 5건
+- 김부 → 산업통상자원부 (inferred): 5건
+- 남부 → 산업통상자원부 (inferred): 5건
+- 원부 → 산업통상자원부 (inferred): 5건
+- 병원 → 산업통상자원부 (inferred): 4건
+- 일원 → 산업통상자원부 (inferred): 4건
+- 동부 → 환경부 (inferred): 4건
+- 옴부 → 환경부 (inferred): 4건
+- 민원 → 환경부 (inferred): 4건
+- 만원 → 환경부 (inferred): 4건
+- 차원 → 산업통상자원부 (inferred): 4건
+- 수원 → 환경부 (inferred): 4건
+- 결실 → 환경부 (inferred): 4건
+- 말부 → 환경부 (inferred): 4건
+- 김부 → 환경부 (inferred): 4건
+- 납부 → 방송통신위원회 (inferred): 4건
+- 시부 → 방송통신위원회 (inferred): 4건
+- 경부 → 산업통상자원부 (inferred): 4건
+- 대처 → 방송통신위원회 (inferred): 3건
+- 부부 → 여성가족부 (inferred): 3건
+- 차원 → 환경부 (inferred): 3건
+- 범부 → 과학기술정보통신부 (inferred): 3건
+- 동원 → 환경부 (inferred): 3건
+- 옴부 → 산업통상자원부 (inferred): 3건
+- 물부 → 환경부 (inferred): 3건
+- 탈원 → 미분류 (fallback-unclassified): 3건
+- 내실 → 환경부 (inferred): 3건
+- 환원 → 산업통상자원부 (inferred): 3건
+- 시부 → 산업통상자원부 (inferred): 3건
+- 병원 → 환경부 (inferred): 3건
+- 산실 → 산업통상자원부 (inferred): 3건
+- 하원 → 산업통상자원부 (inferred): 3건
+- 호실 → 산업통상자원부 (inferred): 3건

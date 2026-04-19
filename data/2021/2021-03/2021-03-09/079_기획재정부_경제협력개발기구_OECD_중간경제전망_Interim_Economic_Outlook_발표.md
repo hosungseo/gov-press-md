@@ -1,0 +1,29 @@
+---
+title: "경제협력개발기구(OECD) 중간경제전망(Interim Economic Outlook) 발표"
+ministry: "기획재정부"
+approve_date: "03/09/2021 19:05:24"
+news_item_id: "156440096"
+grouping_code: "brief"
+original_url: "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156440096&call_from=openData"
+attachment_count: 0
+source: "policy-briefing-api"
+---
+
+# 경제협력개발기구(OECD) 중간경제전망(Interim Economic Outlook) 발표
+
+- 부처: 기획재정부
+- 배포일: 03/09/2021 19:05:24
+- NewsItemId: 156440096
+- 원문: https://www.korea.kr/briefing/pressReleaseView.do?newsId=156440096&call_from=openData
+
+## 본문
+
+◇ OECD는 3.9.(화) 프랑스 시간 11:00 (한국시간 19:00)에 ｢중간 경제전망(OECD Interim Economic Outlook)｣을 발표했습니다.
+
+ ※ 자세한 내용은 첨부파일을 참고 부탁드립니다.
+
+문의. 기획재정부 경제정책국 경제분석과 오다은 (044-215-2733)
+
+## 출처
+
+- 정책브리핑 보도자료 API

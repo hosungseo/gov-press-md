@@ -1,0 +1,25 @@
+---
+title: "[보도참고] 식약처, 의약품 제조.품질관리기준(GMP) 정책과 의약품 설계기반 품질고도화(QbD) 사업결과 공유"
+ministry: "식품의약품안전처"
+approve_date: "10/26/2023 09:10:17"
+news_item_id: "156596241"
+grouping_code: "brief"
+original_url: "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156596241&call_from=openData"
+attachment_count: 0
+source: "policy-briefing-api"
+---
+
+# [보도참고] 식약처, 의약품 제조.품질관리기준(GMP) 정책과 의약품 설계기반 품질고도화(QbD) 사업결과 공유
+
+- 부처: 식품의약품안전처
+- 배포일: 10/26/2023 09:10:17
+- NewsItemId: 156596241
+- 원문: https://www.korea.kr/briefing/pressReleaseView.do?newsId=156596241&call_from=openData
+
+## 본문
+
+식약처, 의약품 제조.품질관리기준(GMP) 정책과 의약품 설계기반 품질고도화(QbD) 사업결과 공유
+
+## 출처
+
+- 정책브리핑 보도자료 API
